@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin: 2%;
+}
+
+.wrap {
+  width: 100vw;
+  height: 100vh;
+}
+
+.links {
+  float: right;
+}
+
+#main {
+  width: 90%;
+  height: 20%;
+}
+
+.mainText {
+  width: 50%;
+  float: left;
+}
+
+.mainImage {
+  width: 50%;
+  float: right;
+  background-color: green;
+  height:100%;
+}
+
+#gallery {
+  width: 33%;
+}
+
+.bigPic {
+  width: 100%;
+}
