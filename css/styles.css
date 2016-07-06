@@ -11,40 +11,72 @@ body {
   padding: 0;
 }
 
-nav {
-  margin: 2%;
-}
-
 .wrap {
   width: 100vw;
   height: 100vh;
 }
 
+nav {
+  margin-top: 2%;
+}
+
+.logo {
+  margin-left: 10%;
+}
+
 .links {
   float: right;
+  margin-right: 8%;
 }
 
 #main {
-  width: 90%;
-  height: 20%;
+  width: 80%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mainText {
   width: 50%;
   float: left;
+  margin-top: 5%;
 }
 
 .mainImage {
-  width: 50%;
+  width: 40%;
+  height: 96%;
   float: right;
   background-color: green;
-  height:100%;
+  border-radius: 50%;
 }
 
 #gallery {
   width: 33%;
+  float: left;
+  margin-top: 2%;
 }
 
 .bigPic {
-  width: 100%;
+  display: block;
+  width: 45%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article1, .article2 {
+  width: 33%;
+  float: left;
+}
+
+.article1Content, .article2Content {
+  width: 80%;
+}
+
+.article2img {
+  float: left;
+  width: 10%;
+  margin-bottom: 22%;
+  margin-top: 1%;
+  margin-right: 2%
 }
