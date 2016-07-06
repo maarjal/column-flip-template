@@ -76,7 +76,42 @@ nav {
 .article2img {
   float: left;
   width: 10%;
-  margin-bottom: 22%;
   margin-top: 1%;
-  margin-right: 2%
+  margin-right: 2%;
+}
+
+.articles {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 990px) {
+  #gallery {
+    width: 100%;
+  }
+
+  .bigPic {
+    width: 26.6%;
+    display: block;
+    float: left;
+    margin-right: 5%;
+  }
+
+  .bigPic:first-child {
+    margin-left: 5%;
+  }
+
+  .articles {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .article1, .article2 {
+    width: 50%;
+  }
+
+  .article1Content, .article2Content {
+    width: 100%;
+  }
 }
